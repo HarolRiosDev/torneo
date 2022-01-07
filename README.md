@@ -1,4 +1,4 @@
-## Bienbenido al Torneo Anual de League of Legends
+## Bienvenido al Torneo Anual de League of Legends
 
 ### Reglas
 
