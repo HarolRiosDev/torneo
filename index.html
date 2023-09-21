@@ -7,10 +7,10 @@
     <style>
         /* Estilos generales */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f8f8f8;
         }
 
         header {
@@ -25,22 +25,29 @@
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
         }
 
         /* Estilos para las secciones de los jugadores */
         .player {
             margin-bottom: 20px;
-            padding: 10px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .player:hover {
+            transform: scale(1.02);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
 
         .player h2 {
             font-size: 24px;
             margin-bottom: 10px;
+            color: #333;
         }
 
         .player-info {
@@ -53,24 +60,23 @@
             height: 100px;
             border-radius: 50%;
             margin-right: 20px;
+            border: 3px solid #007bff;
         }
 
-        /* Estilos para el pie de página */
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: #fff;
+        .player-info p {
+            margin: 0;
+            color: #555;
         }
 
         /* Estilos para los enlaces */
         a {
             color: #007bff;
             text-decoration: none;
+            transition: color 0.2s;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #0056b3;
         }
     </style>
 </head>
@@ -80,33 +86,33 @@
     </header>
     <main>
         <section class="player">
-            <h2>Jugador 1</h2>
+            <h2><a href="enlace-del-jugador-1.html">Jugador 1</a></h2>
             <div class="player-info">
-                <img src="player1-avatar.jpg" alt="Avatar del jugador 1">
+                <img src="ruta/a/tu/avatar1.jpg" alt="Avatar del jugador 1">
                 <p>Nombre de Invocador: Summoner1</p>
                 <p>Posición: Top Lane</p>
                 <p>Nivel: 30</p>
-                <!-- Aquí puedes agregar más información sobre el jugador -->
+                <!-- Puedes agregar más información y enlaces aquí -->
             </div>
         </section>
         <section class="player">
-            <h2>Jugador 2</h2>
+            <h2><a href="enlace-del-jugador-2.html">Jugador 2</a></h2>
             <div class="player-info">
-                <img src="player2-avatar.jpg" alt="Avatar del jugador 2">
+                <img src="ruta/a/tu/avatar2.jpg" alt="Avatar del jugador 2">
                 <p>Nombre de Invocador: Summoner2</p>
                 <p>Posición: Mid Lane</p>
                 <p>Nivel: 40</p>
-                <!-- Aquí puedes agregar más información sobre el jugador -->
+                <!-- Puedes agregar más información y enlaces aquí -->
             </div>
         </section>
         <section class="player">
-            <h2>Jugador 3</h2>
+            <h2><a href="enlace-del-jugador-3.html">Jugador 3</a></h2>
             <div class="player-info">
-                <img src="player3-avatar.jpg" alt="Avatar del jugador 3">
+                <img src="ruta/a/tu/avatar3.jpg" alt="Avatar del jugador 3">
                 <p>Nombre de Invocador: Summoner3</p>
                 <p>Posición: Jungle</p>
                 <p>Nivel: 25</p>
-                <!-- Aquí puedes agregar más información sobre el jugador -->
+                <!-- Puedes agregar más información y enlaces aquí -->
             </div>
         </section>
     </main>
