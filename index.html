@@ -10,7 +10,8 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #007bff, #00aaff); /* Fondo degradado */
+            background: rgb(2,0,36);
+			background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(74,74,218,1) 35%, rgba(0,212,255,1) 100%);
         }
 
         header {
@@ -62,20 +63,27 @@
             margin-right: 20px;
             border: 3px solid #007bff;
         }
-
+		.player-info img {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			margin-right: 20px;
+			border: 3px solid #007bff;
+			object-fit: cover; /* Ajustar al círculo sin distorsionar */
+		}
         .player-info p {
             margin: 0;
             color: #555;
         }
 
         /* Estilos para los enlaces */
-        a {
+        .player a {
             color: #007bff;
             text-decoration: none;
             transition: color 0.2s;
         }
 
-        a:hover {
+        .player a:hover {
             color: #0056b3;
         }
 
@@ -95,34 +103,34 @@
     </header>
     <main>
         <section class="player">
-            <h2><a href="enlace-del-jugador-1.html">Jugador 1</a></h2>
-            <div class="player-info">
-                <img src="ruta/a/tu/avatar1.jpg" alt="Avatar del jugador 1">
-                <p><strong>Nombre de Invocador:</strong> Summoner1</p>
-                <p><strong>Posición:</strong> Top Lane</p>
-                <p><strong>Nivel:</strong> 30</p>
-                <!-- Puedes agregar más información y enlaces aquí -->
-            </div>
+            <a href="https://www.leagueofgraphs.com/summoner/euw/XXXX+Smurf+XXXX" target="_blank">
+                <h2>Cristian</h2>
+                <div class="player-info">
+                    <img class="player-info" src="https://vignette.wikia.nocookie.net/leagueoflegendsoficial/images/c/cb/Urgot_0_old2.jpg/revision/latest?cb=20170326190631&path-prefix=es" alt="Avatar del jugador 1">
+                    <p><strong>Nombre de Invocador:</strong> XXXX Smurf XXXX      <strong>Nivel:</strong> 41</p>
+                    <!-- Puedes agregar más información y enlaces aquí -->
+                </div>
+            </a>
         </section>
         <section class="player">
-            <h2><a href="enlace-del-jugador-2.html">Jugador 2</a></h2>
-            <div class="player-info">
-                <img src="ruta/a/tu/avatar2.jpg" alt="Avatar del jugador 2">
-                <p><strong>Nombre de Invocador:</strong> Summoner2</p>
-                <p><strong>Posición:</strong> Mid Lane</p>
-                <p><strong>Nivel:</strong> 40</p>
-                <!-- Puedes agregar más información y enlaces aquí -->
-            </div>
+            <a href="https://www.leagueofgraphs.com/summoner/euw/Top+is+here" target="_blank">
+                <h2>Alder</h2>
+                <div class="player-info">
+                    <img class="player-info" src="https://pbs.twimg.com/profile_images/1130625758/ezrealicon_400x400.jpg" alt="Avatar del jugador 2">
+                    <p><strong>Nombre de Invocador:</strong> Top is here       <strong>Nivel:</strong> 31</p>
+                    <!-- Puedes agregar más información y enlaces aquí -->
+                </div>
+            </a>
         </section>
         <section class="player">
-            <h2><a href="enlace-del-jugador-3.html">Jugador 3</a></h2>
-            <div class="player-info">
-                <img src="ruta/a/tu/avatar3.jpg" alt="Avatar del jugador 3">
-                <p><strong>Nombre de Invocador:</strong> Summoner3</p>
-                <p><strong>Posición:</strong> Jungle</p>
-                <p><strong>Nivel:</strong> 25</p>
-                <!-- Puedes agregar más información y enlaces aquí -->
-            </div>
+            <a href="https://www.leagueofgraphs.com/summoner/euw/Ryu%20Hayate"  target="_blank">
+                <h2>Harol</h2>
+                <div class="player-info">
+                    <img src="https://www.leaguesplash.com/wp-content/uploads/2013/09/Sion-Classic-Ch2.jpg" alt="Avatar del jugador 3">
+                    <p><strong>Nombre de Invocador:</strong> Ryu Hayate      <strong>Nivel:</strong> 75</p>
+                    <!-- Puedes agregar más información y enlaces aquí -->
+                </div>
+            </a>
         </section>
     </main>
     <footer>
